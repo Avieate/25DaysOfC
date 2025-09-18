@@ -16,27 +16,16 @@ Output 1:
 *****
 
 */
-Q50: Write a program to print the following pattern:
-*****
- ****
-  ***
-   **
-    *
+#include <stdio.h>
 
-/*
-Sample Test Cases:
-Input 1:
-
-Output 1:
-*****
- ****
-  ***
-   **
-    *
-
-Input 2:
-
-Output 2:
-Note: Spaces indicate indentation.
-
-*/
+int main(void)
+{
+    for (int i = 1; i <= 5; i ++)
+    {
+        for (int r = 1; r <= i; r ++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
